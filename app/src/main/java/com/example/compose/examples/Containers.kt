@@ -21,10 +21,11 @@ fun MyColumns() {
         Text(text = "Mati el pulento 10")
         Text(text = "Mati el pulento 11")
         Text(text = "Mati el pulento 12")
+        Text(text = "Mati el pulento 13")
     }
 }
 
-//Rows que van a la derecha
+//Rows que van a la derecha o uno al lado del otro
 @Composable
 fun MyRows() {
     Row {
@@ -41,7 +42,7 @@ fun MyRows() {
 }
 
 
-//Box
+//Box es un contenedor que puede contener un solo elemento secundario
 @Composable
 fun MyBox() {
     Box(
